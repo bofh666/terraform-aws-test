@@ -14,7 +14,7 @@ provider "aws" {
 }
 
 #####
-##### Data sources to get default VPC, subnets and AMI IDs
+##### Data sources to get default VPC and subnets IDs
 #####
 
 data "aws_vpc" "default" {
